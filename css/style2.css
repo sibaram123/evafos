@@ -270,7 +270,7 @@ button.close, button.close:hover{
 @media screen and (max-width:767px){
 	.mytab1, .mytab2{
 		   max-width: 450px;
-	    background-size: cover;
+	    background-size: inherit;
 	    height: 100vh;
 	}
 	.mytab2 {
@@ -293,7 +293,7 @@ button.close, button.close:hover{
 @media screen and (max-width:740px){
 	.mytab1, .mytab2{
 		   max-width: 450px;
-	    background-size: cover;
+	    background-size: inherit;
 	    height: 100vh;
 	}
 	.mytab2 {
