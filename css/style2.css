@@ -270,7 +270,7 @@ button.close, button.close:hover{
 @media screen and (max-width:767px){
 	.mytab1, .mytab2{
 		max-width:360px;
-		background-size: 100% 100% ;
+		background-size: contain;
 	}
 	.mytab2 {
 		padding: 0 7rem;
