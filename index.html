@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<html>
+	
+<head>  
+		<meta name=viewport content="user-scalable=no,width=device-width" />
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style1.css">
+        <link rel="stylesheet" type="text/css" href="css/style2.css"> 
+
+	</head>
+	<body>
+    	<div class="leftcss" data-wow-duration="4500ms">
+        	<!--<a href="javascript:void(0)" onClick="prebtn(1)">
+            	<img src="images/left.png" width="50">
+         	</a>-->
+        </div>
+    	<div class="rightcss" data-wow-duration="5000ms">
+        	<a href="javascript:void(0)" onClick="nxtbtn(2)">
+				<div data-u="arrowright" class="jssora105" style="width:55px;height:55px;left:10px;" data-scale="0.75">
+					<img src="images/right-btn.png" class="img-responsive">
+				</div>
+          	</a>
+        </div>
+			
+            <div data-u="slides" class="slidesu">
+                <div class="row mytab1 alltab">
+                </div>
+				<div class="row mytab2 alltab">	
+							<div class="row">
+								<div class="col-sm-12">
+									<img src="images/sc-2a.png" class="img-responsive zoomIn w3-animate-zoom wow animated sc-2a" data-wow-delay="400ms">
+								</div>
+								<div class="col-sm-12">
+									<img src="images/sc-2b.png" class="img-responsive zoomIn w3-animate-zoom wow animated sc-2b" data-wow-delay="800ms">
+								</div>
+								<div class="col-sm-12">
+									<img src="images/sc-2c.png" class="img-responsive zoomIn w3-animate-zoom wow animated sc-2c" data-wow-delay="1200ms">
+								</div>
+							</div>
+	
+				</div>
+      		</div>
+			
+	</body>
+</html>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/wow.js"></script>
+<script>
+var page1_4 = 0;
+function page1_4play()
+{
+	$(".page1_4").css("width",page1_4+"%");
+	if(page1_4<=90)
+	{
+		page1_4++;
+		setTimeout('page1_4play();',20);
+	}
+}
+var liver = 0;
+function liverplay()
+{
+	liver++;
+	$(".liveroff").hide();
+	$(".liver_"+liver).show();
+	if(liver==12)
+	{
+		liver = 0;
+	}
+	setTimeout('liverplay();',250);
+}
+function prebtn(tabid)
+{
+	$(".alltab").hide();
+	$(".mytab"+tabid).show();
+	
+	$(".page1_4").css("width","2%");
+	if(tabid==1)
+	{
+		setTimeout('page1_4play();',100);
+		page1_4 = 0;
+	}
+	
+	page2_3_1_off();
+	page3_3_1_off();
+	page4_3_off();
+	if(tabid==2)
+	{
+		setTimeout('page2_3_1();',1000);
+		liver = 1;
+	}
+	
+	tabid = tabid-1;
+	if(tabid<1)
+	{
+		$(".leftcss").html('');
+		tabid = tabid+2;		
+		$(".rightcss").html('<a href="javascript:void(0)" onClick="nxtbtn('+tabid+')"><div data-u="arrowright" class="jssora105" style="width:55px;height:55px;left:10px;" data-scale="0.75"><img src="images/right-btn.png" class="img-responsive"></div></div></a>');
+	}
+	
+	else
+	{
+		$(".leftcss").html('<a href="javascript:void(0)" onClick="prebtn('+tabid+')"><div data-u="arrowright" class="jssora105" style="width:55px;height:55px;left:10px;" data-scale="0.75"><img src="images/left-btn.png" class="img-responsive"></div></a>');
+		tabid = tabid+2;
+		$(".rightcss").html('<a href="javascript:void(0)" onClick="nxtbtn('+tabid+')"><div data-u="arrowright" class="jssora105" style="width:55px;height:55px;left:10px;" data-scale="0.75"><img src="images/right-btn.png" class="img-responsive"></div></a>');
+	}
+}
+
+function nxtbtn(tabid)
+{
+	$(".alltab").hide();
+	$(".mytab"+tabid).show();
+	
+	$(".page1_4").css("width","2%");
+	if(tabid==1)
+	{
+		setTimeout('page1_4play();',100);
+		page1_4 = 0;
+	}
+	
+	page2_3_1_off();
+	page3_3_1_off();
+	page4_3_off();
+	if(tabid==1)
+	{
+		setTimeout('page2_3_1();',1000);
+	}
+	tabid = tabid+1;
+	if(tabid>2)
+	{
+		$(".rightcss").html('');
+		tabid = tabid-2;
+		$(".leftcss").html('<a href="javascript:void(0)" onClick="prebtn('+tabid+')"><div data-u="arrowright" class="jssora105" style="width:55px;height:55px;left:10px;" data-scale="0.75"><img src="images/left-btn.png" class="img-responsive"></div></a>');
+	}
+	else
+	{
+		$(".rightcss").html('<a href="javascript:void(0)" onClick="nxtbtn('+tabid+')"><div data-u="arrowright" class="jssora105" style="width:55px;height:55px;left:10px;" data-scale="0.75"><img src="images/right-btn.png" class="img-responsive"></div></a>');
+		tabid = tabid-2;
+		$(".leftcss").html('<a href="javascript:void(0)" onClick="prebtn('+tabid+')"><div data-u="arrowright" class="jssora105" style="width:55px;height:55px;left:10px;" data-scale="0.75"><img src="images/left-btn.png" class="img-responsive"></div></div></a>');
+	}
+}
+function div1_3_hover()
+{
+	$(".div1_3").css('margin-top', '450px');
+}
+function div1_3_hover_out()
+{
+	$(".div1_3").css('margin-top', '220px');
+}
+function page2_3_1()
+{
+	$(".page2_3_1").css('height', '90px');
+	$(".page2_3_2").css('height', '130px');
+	$(".page2_3_3").css('height', '140px');
+	$(".page2_3_4").css('height', '170px');
+}
+function page2_3_1_off()
+{
+	$(".page2_3_1").css('height', '0px');
+	$(".page2_3_2").css('height', '0px');
+	$(".page2_3_3").css('height', '0px');
+	$(".page2_3_4").css('height', '0px');
+}
+function page3_3_1()
+{
+	$(".page3_3_1").css('height', '90px');
+	$(".page3_3_2").css('height', '100px');
+	$(".page3_3_3").css('height', '122px');
+	$(".page3_3_4").css('height', '130px');
+	$(".page3_3_5").css('height', '153px');
+}
+function page3_3_1_off()
+{
+	$(".page3_3_1").css('height', '0px');
+	$(".page3_3_2").css('height', '0px');
+	$(".page3_3_3").css('height', '0px');
+	$(".page3_3_4").css('height', '0px');
+	$(".page3_3_5").css('height', '0px');
+}
+function page4_3_on()
+{
+	$(".page4_3").css('width', '90%');
+	$(".page4_4").css('width', '60%');
+	$(".page4_5").css('width', '100%');
+	$(".page4_6").css('width', '80%');
+	$(".page4_7").css('width', '60%');
+}
+function page4_3_off()
+{
+	$(".page4_3").css('width', '0%');
+	$(".page4_4").css('width', '0%');
+	$(".page4_5").css('width', '0%');
+	$(".page4_6").css('width', '0%');
+	$(".page4_7").css('width', '0%');
+}
+</script>

@@ -1,0 +1,332 @@
+html, body {
+	margin: 0; height: 100%; overflow:hidden;
+	font-family: Myriad Pro;
+}
+body
+{
+	/*Roboto*/
+	margin: 0px;
+	padding: 0px;
+	font-family: Myriad Pro;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+html, body, {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+
+}
+
+.pd_0{
+	padding:0;
+}
+.pd_5{
+	padding:0 5px;
+}
+.mt_20{
+ margin-top:20px;
+}
+.mt_35{
+ margin-top:35px;
+}
+.mt_50{
+ margin-top:50px;
+}
+
+.slidesu
+{
+	font-family: Myriad Pro;
+	cursor:default; 
+
+	/*border: thin solid #CCC;*/
+	margin-left:auto;
+	margin-right:auto;
+
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.mytab1, .mytab2{
+	background-image: url(../images/heder-bar.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 0 20px;
+    width: 100%;
+	height:100vh;
+    padding-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+}
+.mytab2{
+	background-image: url("../images/gutwin-bar.jpg");
+	padding: 0 0px 0 35px;
+    position: relative;
+}
+
+.leftcss
+{
+	bottom: 24%;
+    position: absolute;
+    z-index: 999;
+    left: 25%;
+}
+.rightcss {
+    bottom: 18%;
+    position: absolute;
+    z-index: 999;
+    left: 25%;
+}
+.alltab{
+}
+.mytab2{
+	display:none;
+}
+
+.rightcss img, .leftcss img{
+	padding:10px;
+	/*border:2px solid #fff;
+	border-radius:30px;*/
+}
+.leftcss-n{
+	width: 55px;
+    height: 55px;
+	position:absolute;
+    left: 10px;
+    top: auto;
+    bottom: 11%;
+    z-index: 999;
+    left: 3%;
+}
+.leftcss-n img{
+	padding: 10px;
+    background-color: #fff;
+}
+
+button.close {
+    margin-top: 0;
+    position: absolute;
+    right: 1%;
+    z-index: 999;
+    top: 2%;
+}
+button.close, button.close:hover{
+	background-color: #00adeb;
+    color: #fff;
+    padding: 5px 9px;
+    border-radius: 30px;
+	opacity:1;
+	outline:0;
+}
+.leftcss-n{
+	width: 55px;
+    height: 55px;
+	position:absolute;
+    left: 10px;
+    top: auto;
+    bottom: 11%;
+    z-index: 999;
+    left: 3%;
+}
+.leftcss-n img{
+	padding: 10px;
+    background-color: #fff;
+}
+@media screen and (max-width: 1920px){
+.rightcss {
+    bottom: 21%;
+    position: absolute;
+    z-index: 999;
+    left: 17%;
+}
+.mytab1, .mytab2{
+	width: 100%;
+	height:100vh;
+}
+.leftcss-n {
+    bottom: 12%;
+}
+.rightcss, .leftcss {
+    bottom: 3%;
+	left: 2%;
+}
+.leftcss {
+    bottom: 3%;
+}
+.mytab2 {
+
+    padding: 0 16rem;
+    padding-top: 23%;
+}
+.sc-2a{
+	
+}
+.sc-2b{
+	padding: 1rem 0 0 26rem;
+}
+.sc-2c{
+	padding: 1rem 0 0 34rem;
+}
+
+.rightcss, .leftcss {
+    bottom: 3%;
+	left: 2%;
+}
+.leftcss-n {
+    bottom: 8%;
+	left:3%;
+}
+}
+@media screen and (max-width: 1366px){
+.mt-5{
+  margin-top:10px;
+}
+.mytab1, .mytab2 {
+	width: 1051px;
+	height:100vh;
+}
+.mytab1 {
+	padding: 0 5rem;
+}
+.mytab2 {
+    padding: 0 7rem;
+    padding-top: 19%;
+}
+.sc-2a{
+	
+}
+.sc-2b{
+	padding: 1rem 0 0 13rem;
+}
+.sc-2c{
+	padding: 1rem 0 0 17rem;
+}
+
+.rightcss, .leftcss {
+    bottom: 0%;
+    left: 13%;
+}
+}
+
+@media screen and (max-width: 1280px){
+.mytab1, .mytab2{
+	width: 100%;
+	height: 100vh;
+}
+ .mytab2{
+    padding: 0 11rem;
+    padding-top: 26%;
+}
+.sc-2a {
+}
+
+.sc-2c {
+    padding: 2rem 0 0 22rem;
+}
+.sc-2b {
+    padding: 2rem 0 0 17rem;
+}
+.rightcss, .leftcss {
+	bottom: 10px;
+	left: 1.5%;
+}
+}
+@media screen and (max-width:1024px){
+	 .mytab2{
+		padding: 0px 8rem;
+		padding-top: 31%;
+	}
+	.sc-2a {
+	}
+
+	.sc-2c {
+		padding: 2rem 0 0 22rem;
+	}
+	.sc-2b {
+		padding: 2rem 0 0 17rem;
+	}
+}
+@media screen and (max-width:992px){
+	.mytab1, .mytab2{
+		width: 100%;
+		max-width:896px;
+		
+	}
+	.rightcss, .leftcss {
+		bottom: -11px;
+	}
+	.mytab2 {
+		padding: 0 11rem;
+		padding-top: 18%;
+	}
+	.sc-2b {
+		padding: 0rem 0 0 12rem;
+	}
+	.sc-2c {
+		padding: 0rem 0 0 15rem;
+	}	
+	.rightcss img, .leftcss img {
+		padding: 15px;
+	}
+}
+@media screen and (max-width:767px){
+	.mytab1, .mytab2{
+		max-width:767px;
+	}
+	.mytab2 {
+		padding: 0 7rem;
+		padding-top: 22%;
+	}
+	.sc-2b {
+		padding: 1rem 0 0 9rem;
+	}
+	.sc-2c{
+		padding: 1rem 0 0 12rem;
+	}
+	.rightcss img, .leftcss img {
+		padding: 18px;
+	}
+}
+@media screen and (max-width:640px){
+	.mytab1, .mytab2{
+		max-width:640px;
+	}
+}
+@media screen and (max-width:480px){
+	.mytab1, .mytab2{
+		width: 100%;
+		max-width:480px;
+		background-size: contain;
+	}
+	.mytab2 {
+		padding: 0 4rem;
+		padding-top: 26%;
+	}
+	.sc-2b {
+		padding: .81rem 0 0 5rem;
+	}
+	.sc-2c {
+		padding: .81rem 0 0 7rem;
+	}
+	.rightcss, .leftcss {
+		bottom: auto;
+		top: 22rem;
+	}
+	.rightcss img, .leftcss img {
+		padding: 20px;
+	}
+}
+@media screen and (max-width:390px){
+	.rightcss, .leftcss {
+		top: 20.5rem;
+	}
+}
+@media screen and (max-width:375px){
+	.rightcss, .leftcss {
+		top: 19.7rem;
+	}
+}
