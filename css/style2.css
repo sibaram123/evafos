@@ -285,7 +285,7 @@ button.close, button.close:hover{
 		padding: 18px;
 	}
 	.rightcss, .leftcss {
-		left: 18%;
+		left: 2%;
 	}
 }
 @media screen and (max-width:740px){
