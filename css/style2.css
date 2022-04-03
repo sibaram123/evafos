@@ -291,10 +291,17 @@ button.close, button.close:hover{
 	}
 }
 @media screen and (max-width:740px){
-	
+	.mytab1, .mytab2{
+		   max-width: 450px;
+	    background-size: cover;
+	    height: 100vh;
+	}
 	.mytab2 {
 		padding: 0 11rem;
 		padding-top: 19%;
+	}
+	.rightcss, .leftcss {
+		left: 21%;
 	}
 }
 @media screen and (max-width:640px){
