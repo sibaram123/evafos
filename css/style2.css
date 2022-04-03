@@ -189,26 +189,21 @@ button.close, button.close:hover{
 	width: 100%;
 	height:100vh;
 }
-.mytab1 {
-	padding: 0 5rem;
-}
 .mytab2 {
-    padding: 0 7rem;
+    padding: 0 14rem;
     padding-top: 19%;
 }
 .sc-2a{
-	
 }
 .sc-2b{
-	padding: 1rem 0 0 13rem;
+	padding: 0 0 0 19rem;
 }
 .sc-2c{
-	padding: 1rem 0 0 17rem;
+	padding: 0 0 0 26rem;
 }
-
 .rightcss, .leftcss {
     bottom: 0%;
-    left: 13%;
+    left: 2.5%;
 }
 }
 
@@ -223,7 +218,6 @@ button.close, button.close:hover{
 }
 .sc-2a {
 }
-
 .sc-2c {
     padding: 2rem 0 0 22rem;
 }
@@ -291,6 +285,12 @@ button.close, button.close:hover{
 		padding: 18px;
 	}
 }
+@media screen and (max-width:767px){
+	.mytab2 {
+		padding: 0 11rem;
+		padding-top: 19%;
+	}
+}
 @media screen and (max-width:640px){
 	.mytab1, .mytab2{
 		max-width:640px;
@@ -328,5 +328,10 @@ button.close, button.close:hover{
 @media screen and (max-width:375px){
 	.rightcss, .leftcss {
 		top: 19.7rem;
+	}
+}
+@media screen and (max-width:360px){
+	.rightcss, .leftcss {
+		top: 18.8rem;
 	}
 }
