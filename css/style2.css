@@ -292,8 +292,7 @@ button.close, button.close:hover{
 @media screen and (max-width:740px){
 	.mytab1, .mytab2{
 	    background-size: contain;
-	    height: 100vh;
-	    background-position: center;
+	    background-position: inherit;
 	}
 	.mytab2 {
 	}
@@ -303,14 +302,12 @@ button.close, button.close:hover{
 }
 @media screen and (max-width:640px){
 	.mytab1, .mytab2{
-		
 	}
+	
 }
 @media screen and (max-width:480px){
 	.mytab1, .mytab2{
 		width: 100%;
-		
-		
 	}
 	.mytab2 {
 		padding: 0 4rem;
@@ -325,6 +322,7 @@ button.close, button.close:hover{
 	.rightcss, .leftcss {
 		bottom: auto;
 		top: 22rem;
+		left: 2%;
 	}
 	.rightcss img, .leftcss img {
 		padding: 20px;
