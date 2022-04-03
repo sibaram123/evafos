@@ -340,4 +340,8 @@ button.close, button.close:hover{
 	.rightcss, .leftcss {
 		top: 18.8rem;
 	}
+	.mytab1, .mytab2{
+		max-height:480px;
+		
+	}
 }
