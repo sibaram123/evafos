@@ -296,7 +296,7 @@ button.close, button.close:hover{
 }
 @media screen and (max-width:640px){
 	.mytab1, .mytab2{
-		max-width:640px;
+	
 	}
 }
 @media screen and (max-width:480px){
