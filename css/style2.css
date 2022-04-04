@@ -199,8 +199,8 @@ button.close, button.close:hover{
 	height:100vh;
 }
 .mytab2 {
-    padding: 0 14rem;
-    padding-top: 19%;
+    padding: 0 16rem;
+    padding-top: 18%;
 }
 .sc-2a{
 }
@@ -242,7 +242,7 @@ button.close, button.close:hover{
     padding: 2rem 0 0 17rem;
 }
 .rightcss, .leftcss {
-	bottom: 10px;
+	bottom: 6px;
 	left: 1.5%;
 }
 }
@@ -252,7 +252,7 @@ button.close, button.close:hover{
     padding-top: 26%;
 }
 .rightcss, .leftcss {
-	bottom: 5px;
+	bottom: 12px;
 	left: 1.5%;
 }
 }
