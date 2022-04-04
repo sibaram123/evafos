@@ -256,6 +256,16 @@ button.close, button.close:hover{
 	left: 1.5%;
 }
 }
+@media screen and (max-width: 1280px) and (height: 768px){
+ .mytab2{
+    padding: 0 20rem;
+    padding-top: 19%;
+}
+.rightcss, .leftcss {
+	bottom: 2px;
+	left: 1.5%;
+}
+}
 @media screen and (max-width:1024px){
 	 .mytab2{
 		padding: 0px 8rem;
