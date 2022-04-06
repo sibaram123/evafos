@@ -206,11 +206,11 @@ button.close, button.close:hover{
   padding: 6rem 21rem;
 }
 .mytab2 {
-    padding: 0 21rem;
+    padding: 0 22rem;
     padding-top: 2.5%;
 }
 .sc-2a{
-	padding: 1rem 2rem 0 4rem;
+	padding: 1rem 2rem 0 3.5rem;
 }
 .sc-2b{
 	padding: 1rem 2rem 0 18rem;
@@ -260,17 +260,17 @@ button.close, button.close:hover{
 		padding-top: 3%;
 	}
 	.sc-2a {
-	  padding: 2rem 3rem 0 4rem;
+	  padding: 1.2rem 3rem 0 3.5rem;
 	}
 	.sc-2b {
-		padding: 2rem 3rem 0 22rem;
+		padding: 1.2rem 3rem 0 18rem;
 	}
 	.sc-2c {
-		padding: 2rem 3rem 0 28rem;
+		padding: 1.2rem 3rem 0 23.2rem;
 	}
 
 	.rightcss, .leftcss {
-		bottom: 0;
+		bottom: -2px;
 		left: 1.5%;
 	}
 	
@@ -280,17 +280,17 @@ button.close, button.close:hover{
 			padding: 10rem 7rem;
 		}
 	.mytab2{
-			padding: 0 5rem;
+			padding: 0 6rem;
 			padding-top: 3%;
 		}
 	.sc-2a {
-	  padding: 1rem 2rem 0 4rem;
+	  padding: 1rem 3rem 0 4rem;
 	}
 	.sc-2b {
-		padding: 2rem 2rem 0 21rem;
+		padding: 2rem 3rem 0 21rem;
 	}
 	.sc-2c {
-		padding: 2rem 2rem 0 27rem;
+		padding: 2rem 3rem 0 27rem;
 	}
 	.rightcss, .leftcss {
 		left: 1.5%;
@@ -298,24 +298,13 @@ button.close, button.close:hover{
 	}
 }
 
-@media screen and (max-width: 1280px) and (height: 768px){
- .mytab2{
-    padding: 0 8rem;
-    padding-top: 3%;
-}
-.sc-2a {
-	  padding: 1rem 2rem 0 4rem;
+@media screen and (max-width: 1280px) and (max-height: 789px) and (min-height: 768px){
+  .mytab2{
+    padding: 9rem 11rem;
 	}
-	.sc-2b {
-		padding: 2rem 2rem 0 21rem;
+	.rightcss, .leftcss {
+		left: 1.5%;
 	}
-	.sc-2c {
-		padding: 2rem 2rem 0 27rem;
-	}
-.rightcss, .leftcss {
-	bottom: 0;
-	left: 1.5%;
-}
 }
 @media screen and (max-width: 1080px) and (max-height: 810px) and (min-height: 800px){
 	.mytab2 {
