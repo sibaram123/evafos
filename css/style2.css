@@ -260,14 +260,15 @@ button.close, button.close:hover{
 		padding-top: 20%;
 	}
 	.sc-2a {
-	  padding: 1rem 0 0 4rem;
-	}
-	.sc-2c {
-		padding: 2rem 0 0 21rem;
+	  padding: 2rem 3rem 0 4rem;
 	}
 	.sc-2b {
-		padding: 2rem 0 0 27rem;
+		padding: 2rem 3rem 0 22rem;
 	}
+	.sc-2c {
+		padding: 2rem 3rem 0 28rem;
+	}
+
 	.rightcss, .leftcss {
 		bottom: 0;
 		left: 1.5%;
