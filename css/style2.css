@@ -315,7 +315,7 @@ button.close, button.close:hover{
 		left: 1.5%;
 	}
 }
-@media screen and (max-width: 1280px) and (min-height: 767px){
+@media screen and (max-width: 1280px) and (max-height: 766px) and (min-height: 760px){
   .mytab2{
     padding: 9rem 11rem;
 	}
@@ -332,7 +332,7 @@ button.close, button.close:hover{
 		left: 1.5%;
 	}
 }
-@media screen and (max-width: 1280px) and (min-height: 625px){
+@media screen and (max-width: 1280px) and (max-height: 640px) and (min-height: 625px){
    .mytab1{
     padding: 5rem 18rem;
 	}
