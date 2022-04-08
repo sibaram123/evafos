@@ -293,7 +293,28 @@ button.close, button.close:hover{
 		padding: 2rem 2.5rem 0 29.2rem;
 	}
 	.rightcss, .leftcss {
-		bottom: 0;
+		bottom: 8px;
+	}
+}
+@media screen and (max-width: 1280px) and (max-height: 959px) and (min-height: 881px) {
+	.mytab1 {
+		padding: 14rem 8rem;
+	}
+	.mytab2 {
+		padding: 0 5rem;
+		padding-top: 4%;
+	}	
+	.sc-2a {
+		padding: 2rem 2.5rem 0 4.5rem;
+	}
+	.sc-2b {
+		padding: 2rem 2.5rem 0 23rem;
+	}
+	.sc-2c {
+		padding: 2rem 2.5rem 0 29.2rem;
+	}
+	.rightcss, .leftcss {
+		bottom: 2px;
 	}
 }
 @media screen and (max-width: 1280px) and (max-height: 800px) and (min-height: 790px) {
