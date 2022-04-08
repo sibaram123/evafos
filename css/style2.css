@@ -299,7 +299,11 @@ button.close, button.close:hover{
 }
 
 @media screen and (max-width: 1280px) and (max-height: 789px) and (min-height: 768px){
-  .mytab2{
+.mytab1{
+			padding: 10rem 7rem;
+		}
+	
+	.mytab2{
     padding: 9rem 11rem;
 	}
 	.sc-2a {
